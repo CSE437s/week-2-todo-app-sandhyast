@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">To Do App</h1>
+    <form id="addItem">
+        <label>Add to-do item: </label>
+        <input type="text" id="newItem">
+        <button id="add" type="button">Submit</button>
+    </form>
+
+    <form id="deleteItem">
+        <label>Delete to-do item: </label>
+        <input type="text" id="deleteText">
+        <button id="delete" type="button">Submit</button>
+    </form>
+
+    <ul id="list"></ul>
+
+    <script src="app.js"></script> 
+</body>
+</html>
